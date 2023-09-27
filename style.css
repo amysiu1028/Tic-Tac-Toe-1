@@ -1,0 +1,99 @@
+
+.body,
+.aside,
+.middle-section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Mooli', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.aside,
+.middle-section {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside {
+    background: linear-gradient(to bottom, lightblue, lightyellow, lightgreen);
+    /* aside :: before - background-image: image in repo, image path url; */
+}
+
+.flower {
+    font-size: 70px;
+}
+
+.pink-flower-turn, 
+.yellow-flower-turn,
+.winner,
+.draw {
+    font-size: 30px;
+}
+
+.tic-tac-toe-container {
+    margin-top: 40px;
+}
+ 
+.row {
+    display:flex;
+    justify-content: center;
+}
+
+.bottom-line-block {
+    border-bottom: 4px solid green;
+}
+
+.left-line-block {
+    background-image: linear-gradient(to bottom, turquoise,yellow,green);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 4px 100%;
+}
+
+.block {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: white; 
+    font-size: 60px;
+}
+
+.block_0 {
+    border-top: none;
+    
+}
+
+.block_1 {
+    border-top: none;
+    border-left: green;
+}
+
+.block_0, .block_1, .block_2, 
+.block_3, .block_4, .block_5, 
+.block_6, .block_7, .block_8 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.block_6, .block_7, .block_8 {
+    border-bottom: none;
+}
+
+.disabled-block {
+    pointer-events: none;
+    background-color: white;
+    opacity: 1;
+}   
+
+.hidden {
+    display: none;
+}
