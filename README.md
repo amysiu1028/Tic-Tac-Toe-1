@@ -12,12 +12,13 @@ To play this game locally, follow these steps:
 3. Open the `index.html` file in your preferred web browser.
 
 ## 📷 Preview of App 
-[Live Github Link](https://amysiu1028.github.io/Tic-Tac-Toe-1/)
-
 <img width="766" alt="Screen Shot 2023-09-25 at 7 21 38 PM" src="https://user-images.githubusercontent.com/140124108/270494049-f77ef465-9a9d-4f33-ab16-c38c0aff0863.png">
 
 ##Contributors:
 [Amy](https://github.com/amysiu1028) 
+
+##Link: 
+[Live Github Link](https://amysiu1028.github.io/Tic-Tac-Toe-1/)
 
 ## 🍎 Context:
 This project was developed as a solo project to solidify and demonstrate understanding of JavaScript, HTML, and CSS concepts. The goal was to create a fully functional Tic Tac Toe game while adhering to best practices and coding standards.
